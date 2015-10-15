@@ -1,2 +1,2 @@
-print(42, sep='4', end='\5', file=sys.stdout) 
+print(21+21)
 
