@@ -1,3 +1,4 @@
-for i in "Hello world !":
-     print(i)
-     i=5
+for i in "Hello world !": 
+    print(i)
+    i=5
+
