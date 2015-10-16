@@ -1,1 +1,3 @@
-import(math)
+import math
+for i in math.factorial(27):
+    print(i)
