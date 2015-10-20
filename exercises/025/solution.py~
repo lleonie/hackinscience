@@ -1,4 +1,4 @@
 import datetime
-date = datetime.date.today()
-heure = datetime.now()
-print "Today is", date, "and it is", heure
+date = print(datetime.date.today())
+heure = print(datetime.datetime.now())
+print("Today is", date, "and it is", heure)
