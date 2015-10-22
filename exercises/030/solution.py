@@ -1,3 +1,5 @@
-import pprint
-if range(101):
-    pprint.pprint(range(1, 101))
+#import pprint
+#if range > 0:
+#   print(range(1, 101))
+for i in range(1, 101):
+    print(i)
