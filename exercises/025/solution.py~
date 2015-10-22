@@ -1,6 +1,6 @@
 import datetime 
 from datetime import time
 date = datetime.date.today()
-heure = time.isoformat.now()
+heure = datetime.datetime.now().time()
 print("Today is %s and it is %s " % (date, heure))
 
