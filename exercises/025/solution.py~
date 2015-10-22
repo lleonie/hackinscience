@@ -1,6 +1,6 @@
-import datetime 
+import datetime
 from datetime import time
 date = datetime.date.today()
-heure = datetime.datetime.now().time()
+now = datetime.datetime.now()
+heure = now.replace(microsecond=0)
 print("Today is %s and it is %s " % (date, heure))
-
