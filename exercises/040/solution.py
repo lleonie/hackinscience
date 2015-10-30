@@ -1,3 +1,7 @@
-for a in range(0, 101):
-    if not a % 2:
-        print(somme)
+def sum(x):
+    s = 0
+    for number in x:
+        if not number % 2:
+	    s += number
+    print(s)
+sum(range(101))
