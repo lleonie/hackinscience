@@ -1,3 +1,3 @@
-for nombre in range(1, 101):
-    if not nombre % 2:
-        print(operator.add(nombre))
+for a in range(0, 101):
+    if not a % 2:
+        print(somme)
