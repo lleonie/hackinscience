@@ -1,5 +1,5 @@
 import string
-alpha = string.lowercase
+alpha = string.ascii_lowercase
 for n in range(0, len(alpha)):
     for m in range(0, len(alpha)):
         if n != m:
