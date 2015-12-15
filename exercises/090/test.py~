@@ -1,0 +1,7 @@
+import pprint
+import sys
+identité = ['solution.py', 'user', 'email', 'format']
+x = list(enumerate(identité))
+for i in len(x):
+    if len(sys.argv) >= 1:
+        print(x)
